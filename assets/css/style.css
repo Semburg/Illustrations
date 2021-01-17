@@ -1,16 +1,12 @@
-/* 
-font-family: 'Lato', sans-serif;
-font-family: 'Merriweather', serif;
-*/
-
 body {
     margin: 0;
     padding: 0;
     font-family: 'Merriweather', serif;
-
 }
 
+
 /* *     HEADER     */
+
 
 header{
     /* text-align: right; */
@@ -19,8 +15,6 @@ header{
     margin: 10px;
     padding: 0;
     padding-right: 10px;
-
-
 }
 
 ul{
@@ -41,11 +35,27 @@ ul li a{
     color: #666;
 }
 
+
+/* *                  STYLING DARK/LIGHT MODE BUTTONS                */
+
+
 input[type="button"], form{
     display: inline-block;
 }
+input[type="button"]{
+    background-color: #666;
+    color: #e5f1f3;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
 
-/* *    First Page  and main classes    *****************/
+input[type="button"]:hover{
+    cursor: pointer;
+}
+
+
+/* *                First Page  and main classes                    */
 
 h1{
     font-size: 4em;
@@ -66,21 +76,14 @@ main section:nth-child(3) p{
 
 article{
     padding-left: 7%;
-    /* padding-bottom: 40%; */
-
-    /* border: solid 1px rebeccapurple; */
-
     height: 100vh;
     position: relative;
-   
 }
 
 article div{
     display: inline-block;
     width: 45%;
-    
 }
-
 
 .button_{
     display: inline-block;
@@ -97,31 +100,18 @@ article div{
     color: white;
     background-color: black;
     box-shadow: none;
+    margin-right: 10px;
 }
 
 
 div.text{
-    /* margin-bottom: 100px; */
-    /* box-sizing: border-box;
-    height: 200%;
-    border: 1px black solid; */
-
-    /* position: absolute;
-    top:50%;
-    transform: translateY(-50%); */
-    /* margin-bottom: 100px; */
-    /* border: 1px black solid; */
-
     position: absolute;
     top:50%;
     left:100px;
     transform: translateY(-50%);
-    
 }
 
 div.text.right_side{
-    /* border: 1px black solid; */
-
     position: absolute;
     top:50%;
     right: 0;
@@ -129,13 +119,10 @@ div.text.right_side{
     margin-left: 45%;
 }
 
-
-
 div.pic{
     padding: 0;
     margin: 0;
     text-align: right;
-
     display: inline-block;
     position: absolute;
     right: 0;
@@ -144,9 +131,6 @@ div.pic{
 main section:nth-child(3) div.pic{
     right: 100px;
 }
-
-/* main section:nth-child(3) div.pic img{
-} */
 
 
 div.pic.left_side{
@@ -160,7 +144,6 @@ div.pic.left_side{
     margin: 0;
     padding: 0;
     height: 85vh;
-
 }
 
 /* * ++++++++       Ab  Page 4   -    */
@@ -168,10 +151,11 @@ div.pic.left_side{
 #center_text, #center_text2{
     text-align: center;
     margin-top: 10%;
-    
 }
 
-
+#center_text{
+    margin-bottom: 5%;
+}
 #center_text h1{
     width: 76%;
     padding-left: 12%;
@@ -181,18 +165,10 @@ div.pic.left_side{
     width: 80%;
     padding-left: 10%;
 }
-
-
-/* ?   ---------     Zweites zentrierte Block ist enger  be tag p    */
-
-
-
 #center_text2 p{
     width: 60%;
     padding-left: 20%;
 }
-
-
 #tripple img{
     width: 25%;
     padding-right: 5%;
@@ -201,18 +177,18 @@ div.pic.left_side{
 padding-left: 7.5%;
 }
 
-
 /* ************      IMAGE GALLERY       -----------    */
 
-#gallery{
+
+.gallery{
     margin-top: 100px;
 }
 
-#gallery img{
+.gallery img{
     width: 40%;
     padding-right: 5%;
 }
-#gallery img:first-of-type{
+.gallery img:first-of-type{
 padding-left: 7.5%;
 }
 
@@ -266,12 +242,13 @@ section:last-of-type{
     padding:15px 30px;
     color:white;
     background-color: #24bff2;
-    border-radius:5px
+    border-radius:5px;
     margin-bottom:30px;
 }
 
 
 /* *                    FOOTER                    */
+
 
 footer{
     margin: 0;
@@ -297,7 +274,6 @@ footer h4{
 footer a, p{
     opacity: 1;
     font-family: 'Merriweather', serif;
-    /* color: #202020; */
 }
 
 footer h1{
@@ -309,25 +285,19 @@ footer h1{
     color: #202020;
 }
 
-
-
 #dbl{
     color: #3b5998;
-    /* font-size: 2em; */
 }
 
 #link_u #oran{
     color: #fcaf45;
-    /* font-size: 2em; */
 }
 
 #link_u #blu{
     color: #55acee;
-    /* font-size: 2em; */
 }
 #red{
     color: #c4302b;
-    /* font-size: 2em; */
 }
 
 
